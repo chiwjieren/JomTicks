@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": "341e",
+      "name": "john doe ",
+      "email": "john@gmail.com",
+      "password": "123456",
+      "createdAt": "2024-12-15T08:55:51.152Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "title": "Taylor Swift | The Eras Tour",
+      "description": "Experience the music of Taylor Swift's eras in this spectacular concert tour.",
+      "date": "2024-03-15T20:00:00Z",
+      "venue": "National Stadium Bukit Jalil",
+      "category": "concert",
+      "imageUrl": "https://i.ytimg.com/vi/KudedLV0tP0/maxresdefault.jpg",
+      "saleStarted": false,
+      "prices": {
+        "VIP": 1288,
+        "CAT1": 988,
+        "CAT2": 788,
+        "CAT3": 588
+      },
+      "availableSeats": {
+        "VIP": 0,
+        "CAT1": 0,
+        "CAT2": 0,
+        "CAT3": 0
+      }
+    },
+    {
+      "id": "2",
+      "title": "Coldplay | Music Of The Spheres World Tour",
+      "description": "Join Coldplay for an unforgettable night of music and spectacle.",
+      "date": "2024-04-20T19:30:00Z",
+      "venue": "National Stadium Bukit Jalil",
+      "category": "concert",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/79/Music_of_the_Spheres_World_Tour_Poster.png",
+      "saleStarted": false,
+      "prices": {
+        "VIP": 1288,
+        "CAT1": 988,
+        "CAT2": 788,
+        "CAT3": 588
+      },
+      "availableSeats": {
+        "VIP": 1000,
+        "CAT1": 2000,
+        "CAT2": 3000,
+        "CAT3": 4000
+      }
+    },
+    {
+      "id": "3",
+      "title": "Malaysia vs Indonesia | AFF Championship Final",
+      "description": "Witness the intense rivalry between Malaysia and Indonesia in this crucial match.",
+      "date": "2024-02-28T20:45:00Z",
+      "venue": "National Stadium Bukit Jalil",
+      "category": "sports",
+      "imageUrl": "https://www.mstar.com.my/image/830/553?url=https%3A%2F%2Fclips.mstar.com.my%2Fimages%2Fblob%2FFFBEA953-7DD2-4038-9AAC-2B8ACBF1543B",
+      "saleStarted": false,
+      "prices": {
+        "VIP": 300,
+        "CAT1": 200,
+        "CAT2": 150,
+        "CAT3": 100
+      },
+      "availableSeats": {
+        "VIP": 500,
+        "CAT1": 1000,
+        "CAT2": 1500,
+        "CAT3": 2000
+      }
+    }
+  ],
+  "purchases": [
+    {
+      "id": "3f33",
+      "eventId": "1",
+      "userId": "5d54",
+      "category": "VIP",
+      "quantity": 1,
+      "totalPrice": 1288,
+      "purchaseDate": "2024-12-15T08:52:48.147Z",
+      "status": "confirmed"
+    }
+  ]
+}
