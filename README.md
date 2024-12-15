@@ -62,7 +62,7 @@ npm run mock-api
 # or
 yarn mock-api
 ```
-
+*remember to run the dev server and JSON server on different terminals
 ## 📁 Project Structure
 
 ```
